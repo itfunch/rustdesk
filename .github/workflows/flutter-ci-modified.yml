@@ -1,4 +1,4 @@
-name: Full Flutter CI
+name: Full Flutter CI MODIFIED
 
 on:
   workflow_dispatch:
