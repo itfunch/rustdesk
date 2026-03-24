@@ -35,8 +35,6 @@ pub fn start_auto_update() {
 
 #[allow(dead_code)]
 pub fn manually_check_update() -> ResultType<()> {
-    let sender = TX_MSG.lock().unwrap();
-    sender.send(UpdateMsg::CheckUpdate)?;
     Ok(())
 }
 
